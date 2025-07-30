@@ -1,0 +1,55 @@
+.gb-header-tswindow{
+	@media screen and (max-width: 991px){
+		background: #f1f1f1;
+	}
+}
+.content-header-top{
+	background: url("../images/bg-header.png") no-repeat;
+	min-height: 123px;
+	@media screen and (max-width: 991px){
+		background: #f1f1f1;
+	}
+	.wp-box-contact{
+		float: right;padding: 37px 0px;
+		@media screen and (max-width: 991px){
+			padding: 0px;
+		}
+		li{
+			display: inline-block;
+			font-weight: 500;
+			color:#656565;
+			padding: 15px;
+			background: #f1f1f1;
+			border-radius: 2px;
+			font-size: 20px;
+			@media screen and (max-width: 991px){
+				font-size: 14px;
+			}
+			.box-icon{
+				span{
+					color: #217b3b;
+				}
+			}
+		}
+	}
+	.logo-responsive{
+		img{
+			display: none;
+		    @media screen and (max-width: 991px){
+				width: 60px;
+			    margin-left: 30px;
+			    margin-bottom: 20px;
+			    display: block!important;
+			}
+		}
+	}
+}
+.gb-header-bottom_tswindow{
+	@media screen and (max-width: 991px){
+		display: none;
+	}
+	.gb-header-bottom_tswindow-logo{
+		position: absolute;
+		top: -122px;
+	}
+}

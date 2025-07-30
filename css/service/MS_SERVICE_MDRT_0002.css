@@ -1,0 +1,59 @@
+.gb-home-our-mission-mdrt {
+  padding: 100px 0; }
+  .gb-home-our-mission-mdrt .read-more a {
+    font-size: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    background-color: #48d3a4;
+    padding: 11px 25px 11px 25px;
+    color: #fff; }
+    .gb-home-our-mission-mdrt .read-more a:hover {
+      background: #000;
+      -webkit-transition: 1s ease;
+      -o-transition: 1s ease;
+      transition: 1s ease; }
+  .gb-home-our-mission-mdrt .gb-home-our-mission-mdrt-title {
+    display: flow-root;
+    margin-bottom: 30px;
+    text-align: center; }
+    .gb-home-our-mission-mdrt .gb-home-our-mission-mdrt-title h2 {
+      font-size: 40px;
+      text-transform: uppercase;
+      position: relative;
+      display: inline-block;
+      font-weight: 700;
+      color: #000; }
+    .gb-home-our-mission-mdrt .gb-home-our-mission-mdrt-title .service-des-home {
+      margin: 0% 22% 0% 22%;
+      color: #696868;
+      font-weight: 300; }
+    .gb-home-our-mission-mdrt .gb-home-our-mission-mdrt-title .line {
+      padding: 12px 0px 27px 0px;
+      border-top-style: solid;
+      border-top-width: 3px;
+      border-top-color: #48d3a4;
+      width: 6%;
+      margin: 0 auto; }
+  .gb-home-our-mission-mdrt .gb-product-mdrt-item {
+    margin-bottom: 30px;
+    overflow: hidden; }
+    .gb-home-our-mission-mdrt .gb-product-mdrt-item img {
+      width: 100%;
+      height: 326px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .gb-home-our-mission-mdrt .gb-product-mdrt-item img:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1); }
+    .gb-home-our-mission-mdrt .gb-product-mdrt-item .product-item-text {
+      padding: 10px 15px; }
+      .gb-home-our-mission-mdrt .gb-product-mdrt-item .product-item-text h3 a {
+        display: block;
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        color: #000; }
+      .gb-home-our-mission-mdrt .gb-product-mdrt-item .product-item-text .product-btn-cart_denmoc {
+        text-align: right; }

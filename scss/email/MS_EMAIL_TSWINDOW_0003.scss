@@ -1,0 +1,62 @@
+.gb-lienhe{
+  padding: 50px 0;
+}
+.gb-form-lienhe{
+  h3{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  form{
+    label{
+      font-size: 14px;
+      font-weight: 600;
+      text-align: left;
+      color: #333;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+  .btn-gui{
+    min-width: 200px;
+    background: $color-main-denmoc;
+    border: 2px solid $color-main-denmoc;
+    color: $color-white;
+    border-radius: 0;
+    transition:  all 0.5s;float: right;
+    &:hover{
+      background: transparent;
+      color: $color-main-denmoc;
+    }
+  }
+    .gb-dress-intro{
+    ul{
+      li{
+        display: flow-root;
+        margin-bottom: 10px;
+        .icons{
+          width: 40px;
+          height: 40px;
+          border: 1px solid $color-main-denmoc;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          color: $color-main-denmoc;
+          float: left;
+        }
+        p{
+          padding-left: 60px;
+          color: $color-1;
+          font-size: 16px;
+          line-height: 1.5;
+        }
+      }
+    }
+    .gb-dress-title{
+      font-size: 25px;font-weight: normal;color: $color-main-denmoc;padding-bottom: 15px;
+    }
+  }
+}

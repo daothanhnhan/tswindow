@@ -1,0 +1,35 @@
+.wp-gallery-content{
+    .title-big-gallery{
+        font-size: 35px;font-weight: normal;padding-bottom: 20px;padding-top: 20px;
+    }
+    .item-gallery{
+    	margin-bottom: 10px;
+        .img-gallery{
+            height: 260px;overflow: hidden;
+        }
+    	img{
+    		width: 100%;display: block;
+    		@media screen and (max-width: 991px){
+    			height: auto;
+    		}
+            &:hover{
+                transform:scale(1.1);
+                transition:0.8s ease;
+            }
+    	}
+        .title-gallery{
+            text-align: center;
+            h2{
+                a{
+                    font-size: 20px;font-weight: normal;display: block;
+                    padding: 15px 0px;
+                    color: #333;
+                    &:hover{
+                        color: $color-main-denmoc;
+                    }
+                }
+            }
+        }
+    }
+
+}

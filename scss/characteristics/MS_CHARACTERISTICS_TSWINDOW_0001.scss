@@ -1,0 +1,27 @@
+.gb-taisaolaichonchungtoi_denmoc{
+  text-align: center;
+  color:#FFF;
+  background-color: #48d3a4;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 68px 0px 60px 0px;
+  .gb-taisaolaichonchungtoi_denmoc-item{
+    @media screen and (max-width: 768px) {
+        border-right:none;
+        margin-bottom: 40px;
+    }
+    border-right: 1px solid #eaeaea;
+    .number{font-size: 50px;font-weight: 700;}
+    h2{font-size: 20px;font-weight: 700;margin-top: 5px;}
+    img{
+      margin:  0 auto;
+    }
+    a{
+      display: block;
+      font-size: 16px;
+      color: $color-white;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 5px;
+    }
+  }
+}

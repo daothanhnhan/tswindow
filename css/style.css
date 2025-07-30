@@ -1,0 +1,2695 @@
+@charset "UTF-8";
+/*Định nghĩa màu cho website*/
+/*Định nghĩa font-family cho website*/
+@import url(../plugin/fonts/roboto/roboto.css);
+/*Định nghĩa font-size cho website*/
+h1 {
+  font-size: 24px;
+  line-height: 1.5; }
+
+h2 {
+  font-size: 22px;
+  line-height: 1.5; }
+
+h3 {
+  font-size: 20px;
+  line-height: 1.5; }
+
+h4 {
+  font-size: 18px;
+  line-height: 1.5; }
+
+h5 {
+  font-size: 16px;
+  line-height: 1.5; }
+
+h6 {
+  font-size: 14px;
+  line-height: 1.5; }
+
+p {
+  line-height: 1.5; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  font-family: "Roboto";
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: ''; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+.clear-padding {
+  padding: 0; }
+
+.clear-padding-left {
+  padding-left: 0; }
+
+.clear-padding-right {
+  padding-right: 0; }
+
+.padding-5px {
+  padding: 5px; }
+
+.gb-divider {
+  width: 100%;
+  border-top-width: 1px;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: dashed;
+  border-color: #E0E0E0;
+  overflow: hidden;
+  margin: 30px 0; }
+
+/*header*/
+@media screen and (max-width: 991px) {
+  .is-sticky .sticky-menu {
+    position: relative !important; } }
+
+.gb-header-denmoc .gb-header-top_denmoc {
+  background: #000; }
+  .gb-header-denmoc .gb-header-top_denmoc .gb-header-top_denmoc-left ul li {
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+    line-height: 22px;
+    margin-right: 10px;
+    padding: 15px 0; }
+    .gb-header-denmoc .gb-header-top_denmoc .gb-header-top_denmoc-left ul li i {
+      margin-right: 10px; }
+  .gb-header-denmoc .gb-header-top_denmoc .gb-header-top_denmoc-right {
+    text-align: right; }
+    .gb-header-denmoc .gb-header-top_denmoc .gb-header-top_denmoc-right ul li {
+      display: inline-block; }
+      .gb-header-denmoc .gb-header-top_denmoc .gb-header-top_denmoc-right ul li .gb-header-top_denmoc-taikhoan {
+        padding: 9px 15px; }
+
+.gb-header-denmoc .gb-header-bottom_denmoc-logo {
+  padding: 5px 0; }
+  .gb-header-denmoc .gb-header-bottom_denmoc-logo img {
+    width: 200px; }
+
+/*menu*/
+.gb-header-between {
+  padding: 20px 0; }
+  @media screen and (max-width: 991px) {
+    .gb-header-between .gb-header-between-logo_denmoc {
+      width: 220px; } }
+
+/*MENU DESKTOP*/
+.is-sticky {
+  position: relative;
+  z-index: 9999; }
+
+.gb-main-menu_denmoc {
+  position: relative; }
+  .gb-main-menu_denmoc .main-menu {
+    position: relative; }
+  .gb-main-menu_denmoc .cssmenu,
+  .gb-main-menu_denmoc .cssmenu ul,
+  .gb-main-menu_denmoc .cssmenu ul li,
+  .gb-main-menu_denmoc .cssmenu ul li a,
+  .gb-main-menu_denmoc .cssmenu #menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .gb-main-menu_denmoc .cssmenu:after,
+  .gb-main-menu_denmoc .cssmenu > ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; }
+  .gb-main-menu_denmoc .cssmenu #menu-button {
+    display: none; }
+  .gb-main-menu_denmoc .cssmenu {
+    text-align: right;
+    width: auto;
+    line-height: 1; }
+    @media screen and (max-width: 991px) {
+      .gb-main-menu_denmoc .cssmenu {
+        display: none; } }
+  .gb-main-menu_denmoc .cssmenu > ul > li {
+    display: inline-block;
+    position: initial; }
+  .gb-main-menu_denmoc .cssmenu.align-center > ul {
+    font-size: 0;
+    text-align: center; }
+  .gb-main-menu_denmoc .cssmenu.align-center > ul > li {
+    display: inline-block;
+    float: none; }
+  .gb-main-menu_denmoc .cssmenu.align-center ul ul {
+    text-align: left; }
+  .gb-main-menu_denmoc .cssmenu.align-right > ul > li {
+    float: right; }
+  .gb-main-menu_denmoc .cssmenu.align-right ul ul {
+    text-align: right; }
+  .gb-main-menu_denmoc .cssmenu > ul > li > a {
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000;
+    padding: 32px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease; }
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+      .gb-main-menu_denmoc .cssmenu > ul > li > a {
+        font-size: 11px;
+        padding: 20px 10px; } }
+  .gb-main-menu_denmoc .cssmenu > ul > li:hover > a,
+  .gb-main-menu_denmoc .cssmenu > ul > li.active > a {
+    color: #9e9e9e; }
+  .gb-main-menu_denmoc .cssmenu > ul > li.has-sub > a:hover:before {
+    content: '';
+    display: block; }
+  .gb-main-menu_denmoc .cssmenu > ul > li.has-sub:hover > a::after {
+    border-color: #fff; }
+  .gb-main-menu_denmoc .cssmenu ul ul {
+    position: absolute;
+    left: -9999px;
+    z-index: 2;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); }
+  .gb-main-menu_denmoc .cssmenu li:hover > ul {
+    left: auto; }
+  .gb-main-menu_denmoc .cssmenu.align-right li:hover > ul {
+    right: 0; }
+  .gb-main-menu_denmoc .cssmenu ul ul ul {
+    margin-left: 100%;
+    top: 0;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); }
+  .gb-main-menu_denmoc .cssmenu ul ul ul li a {
+    color: #666666;
+    border-top: 1px solid #e0e0e0; }
+  .gb-main-menu_denmoc .cssmenu.align-right ul ul ul {
+    margin-left: 0;
+    margin-right: 100%; }
+  .gb-main-menu_denmoc .cssmenu ul ul li {
+    -webkit-transition: height .2s ease;
+    -o-transition: height .2s ease;
+    transition: height .2s ease; }
+  .gb-main-menu_denmoc .cssmenu ul ul li a {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666;
+    padding: 12px 20px;
+    min-width: 240px;
+    background: transparent;
+    border-top: 1px solid #e0e0e0;
+    text-decoration: none;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease; }
+  .gb-main-menu_denmoc .cssmenu ul ul li:first-child a {
+    border-top: none; }
+  .gb-main-menu_denmoc .cssmenu ul ul li:hover > a,
+  .gb-main-menu_denmoc .cssmenu ul ul li a:hover {
+    color: #fff;
+    background: #9e9e9e; }
+  .gb-main-menu_denmoc .cssmenu ul ul li.has-sub > a::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 4px;
+    height: 4px;
+    border-bottom: 1px solid #222;
+    border-right: 1px solid #222;
+    content: "";
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: border-color 0.2s ease;
+    -o-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease; }
+  .gb-main-menu_denmoc .cssmenu.align-right ul ul li.has-sub > a::after {
+    right: auto;
+    left: 10px;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd; }
+  .gb-main-menu_denmoc .cssmenu ul ul li.has-sub:hover > a::after {
+    border-color: #fff; }
+  .gb-main-menu_denmoc .cssmenu ul li:hover .gb-mega-menu {
+    display: block; }
+  .gb-main-menu_denmoc .cssmenu ul li .gb-mega-menu {
+    position: absolute;
+    display: none; }
+    @media screen and (min-width: 992px) {
+      .gb-main-menu_denmoc .cssmenu ul li .gb-mega-menu {
+        width: 940px;
+        left: -257px; } }
+    @media screen and (min-width: 1200px) {
+      .gb-main-menu_denmoc .cssmenu ul li .gb-mega-menu {
+        width: 1140px;
+        left: -307px; } }
+    .gb-main-menu_denmoc .cssmenu ul li .gb-mega-menu .box_image_sub_menu {
+      height: 270px;
+      overflow: hidden; }
+      .gb-main-menu_denmoc .cssmenu ul li .gb-mega-menu .box_image_sub_menu img {
+        width: 100%;
+        height: auto; }
+    .gb-main-menu_denmoc .cssmenu ul li .gb-mega-menu h3 {
+      font-weight: 600;
+      font-size: 18px;
+      color: #9e9e9e;
+      line-height: 1.5;
+      padding: 10px 20px; }
+    .gb-main-menu_denmoc .cssmenu ul li .gb-mega-menu ul {
+      position: relative;
+      left: initial;
+      margin-left: initial;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      .gb-main-menu_denmoc .cssmenu ul li .gb-mega-menu ul li a {
+        padding: 10px 20px;
+        border: none; }
+
+/*Menu mobiles*/
+.mobile-nav .navbar-toggle {
+  z-index: 999999;
+  top: 21px; }
+
+.mobile-nav [class^="icon-"]:before, .mobile-nav [class*=" icon-"]:before {
+  width: auto !important;
+  margin-right: 0 !important; }
+
+.mobile-nav #cssmenu,
+.mobile-nav #cssmenu ul,
+.mobile-nav #cssmenu ul li,
+.mobile-nav #cssmenu ul li a,
+.mobile-nav #cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.mobile-nav #cssmenu > ul > li > a {
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: left;
+  color: #ffffff;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease; }
+
+.mobile-nav #cssmenu ul ul li a {
+  display: block;
+  font-size: 14px;
+  text-align: left;
+  color: #222222;
+  padding: 17px 20px;
+  min-width: 240px;
+  background: transparent;
+  border-top: 1px solid #e0e0e0;
+  text-decoration: none;
+  -webkit-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease; }
+
+@media screen and (max-width: 991px) {
+  .mobile-nav #cssmenu {
+    width: 100%;
+    background: #22292d;
+    display: none;
+    position: absolute;
+    min-height: 100%;
+    z-index: 2000000; }
+  .mobile-nav .uni-icons-close {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: solid 1px #333333;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 35px; }
+    .mobile-nav .uni-icons-close i {
+      font-family: FontAwesome;
+      font-size: 15px;
+      line-height: 2.93;
+      text-align: center;
+      color: #aeaeae; }
+  .mobile-nav #cssmenu ul {
+    width: 100%;
+    display: none;
+    padding: 0 30px;
+    background: transparent; }
+  .mobile-nav #cssmenu ul ul {
+    background: transparent;
+    padding-right: 0; }
+  .mobile-nav #cssmenu.align-center > ul,
+  .mobile-nav #cssmenu.align-right ul ul {
+    text-align: left; }
+  .mobile-nav #cssmenu ul li,
+  .mobile-nav #cssmenu ul ul li,
+  .mobile-nav #cssmenu ul li:hover > ul > li {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgba(120, 120, 120, 0.15); }
+  .mobile-nav #cssmenu ul ul li,
+  .mobile-nav #cssmenu ul li:hover > ul > li {
+    border-top: 1px solid transparent; }
+  .mobile-nav #cssmenu li:hover > ul {
+    border-top: 1px solid rgba(120, 120, 120, 0.15); }
+  .mobile-nav #cssmenu ul li a,
+  .mobile-nav #cssmenu ul ul li a {
+    width: 100%;
+    padding: 11px 0;
+    text-transform: inherit; }
+  .mobile-nav #cssmenu > ul > li,
+  .mobile-nav #cssmenu.align-center > ul > li,
+  .mobile-nav #cssmenu.align-right > ul > li {
+    float: none;
+    display: block; }
+  .mobile-nav #cssmenu ul ul li:last-child a {
+    border-bottom: none; }
+  .mobile-nav #cssmenu ul ul li a {
+    display: block;
+    line-height: 24px;
+    font-size: 14px;
+    color: #aeaeae;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(120, 120, 120, 0.15); }
+  .mobile-nav #cssmenu ul ul li:hover > a,
+  .mobile-nav #cssmenu ul ul li a:hover {
+    color: #9e9e9e; }
+  .mobile-nav .home-icon {
+    background: transparent; }
+  .mobile-nav #cssmenu > ul > li:hover > a,
+  .mobile-nav #cssmenu > ul > li.active > a {
+    color: #9e9e9e !important; }
+  .mobile-nav #cssmenu ul ul ul li a {
+    padding-left: 0;
+    border-top: none; }
+  .mobile-nav #cssmenu ul ul,
+  .mobile-nav #cssmenu ul ul ul {
+    position: relative;
+    left: 0;
+    right: auto;
+    width: 100%;
+    margin: 0;
+    border-top: 1px solid rgba(120, 120, 120, 0.15); }
+  .mobile-nav #cssmenu > ul > li.has-sub > a::after,
+  .mobile-nav #cssmenu ul ul li.has-sub > a::after {
+    display: none; }
+  .mobile-nav #menu-line {
+    display: none; }
+  .mobile-nav #cssmenu #menu-button {
+    display: block;
+    padding: 20px;
+    color: #000000;
+    cursor: pointer; }
+  .mobile-nav #cssmenu .submenu-button {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    display: block;
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    border-left: 1px solid rgba(120, 120, 120, 0.15); }
+  .mobile-nav #cssmenu .submenu-button::after {
+    content: '\f107';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    font-family: FontAwesome;
+    color: #fff;
+    z-index: 99; }
+  .mobile-nav #cssmenu .submenu-button.active::before {
+    content: '\f106';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    font-family: FontAwesome;
+    color: #9e9e9e;
+    z-index: 99; }
+  .mobile-nav #cssmenu ul li ul li .submenu-button::after {
+    content: '';
+    position: absolute;
+    top: 21px;
+    left: 20px;
+    display: block;
+    width: 1px;
+    height: 11px;
+    background: #fff;
+    z-index: 99; }
+  .mobile-nav #cssmenu ul li ul li .submenu-button::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 21px;
+    display: block;
+    width: 11px;
+    height: 1px;
+    background: #fff;
+    z-index: 99; }
+  .mobile-nav #cssmenu ul li ul li .submenu-button.active::before {
+    content: '';
+    position: absolute;
+    left: 21px;
+    top: 21px;
+    display: block;
+    width: 11px;
+    height: 1px;
+    background: #9e9e9e;
+    z-index: 99; }
+  .mobile-nav #cssmenu .submenu-button.submenu-opened:after {
+    display: none; }
+  .mobile-nav .navbar-toggle .icon-bar {
+    display: inline-block; }
+  .mobile-nav .menu-mobile-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    position: absolute;
+    color: #000;
+    top: 65px;
+    right: 15px;
+    z-index: 9999; } }
+
+.gb-sidebar-category_denmoc {
+  margin-bottom: 30px; }
+  @media screen and (max-width: 991px) {
+    .gb-sidebar-category_denmoc {
+      display: none; } }
+  .gb-sidebar-category_denmoc .title_Module_Bar_5_denmoc {
+    position: relative;
+    padding: 11px 0 11px 5%;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #9e9e9e; }
+    .gb-sidebar-category_denmoc .title_Module_Bar_5_denmoc i {
+      position: absolute;
+      right: 0;
+      top: 0;
+      background: #9e9e9e;
+      margin: 0;
+      padding: 10px 15px 10px 15px;
+      font-size: 16px;
+      color: #fff; }
+  .gb-sidebar-category_denmoc .main-menu {
+    position: relative; }
+  .gb-sidebar-category_denmoc .cssmenu,
+  .gb-sidebar-category_denmoc .cssmenu ul,
+  .gb-sidebar-category_denmoc .cssmenu ul li,
+  .gb-sidebar-category_denmoc .cssmenu ul li a,
+  .gb-sidebar-category_denmoc .cssmenu #menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .gb-sidebar-category_denmoc .cssmenu span,
+    .gb-sidebar-category_denmoc .cssmenu ul span,
+    .gb-sidebar-category_denmoc .cssmenu ul li span,
+    .gb-sidebar-category_denmoc .cssmenu ul li a span,
+    .gb-sidebar-category_denmoc .cssmenu #menu-button span {
+      margin-right: 10px; }
+      .gb-sidebar-category_denmoc .cssmenu span img,
+      .gb-sidebar-category_denmoc .cssmenu ul span img,
+      .gb-sidebar-category_denmoc .cssmenu ul li span img,
+      .gb-sidebar-category_denmoc .cssmenu ul li a span img,
+      .gb-sidebar-category_denmoc .cssmenu #menu-button span img {
+        width: 20px; }
+  .gb-sidebar-category_denmoc .cssmenu {
+    border: 1px solid #dcdcdc; }
+    .gb-sidebar-category_denmoc .cssmenu ul {
+      position: relative; }
+      .gb-sidebar-category_denmoc .cssmenu ul li {
+        border-bottom: 1px solid #dcdcdc;
+        position: relative; }
+        .gb-sidebar-category_denmoc .cssmenu ul li:last-child {
+          border-bottom: none; }
+        .gb-sidebar-category_denmoc .cssmenu ul li a {
+          position: relative; }
+      .gb-sidebar-category_denmoc .cssmenu ul ul .item {
+        margin-bottom: 10px; }
+        .gb-sidebar-category_denmoc .cssmenu ul ul .item h3 a {
+          display: block;
+          font-weight: 600;
+          margin-bottom: 10px; }
+      .gb-sidebar-category_denmoc .cssmenu ul ul ul {
+        overflow: initial; }
+      .gb-sidebar-category_denmoc .cssmenu ul ul li {
+        border-bottom: none; }
+  .gb-sidebar-category_denmoc .cssmenu:after,
+  .gb-sidebar-category_denmoc .cssmenu > ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; }
+  .gb-sidebar-category_denmoc .cssmenu #menu-button {
+    display: none; }
+  .gb-sidebar-category_denmoc .cssmenu {
+    width: auto;
+    line-height: 1; }
+    @media screen and (max-width: 991px) {
+      .gb-sidebar-category_denmoc .cssmenu {
+        display: none; } }
+  .gb-sidebar-category_denmoc .cssmenu.align-center > ul {
+    font-size: 0;
+    text-align: center; }
+  .gb-sidebar-category_denmoc .cssmenu.align-center > ul > li {
+    display: inline-block;
+    float: none; }
+  .gb-sidebar-category_denmoc .cssmenu.align-center ul ul {
+    text-align: left; }
+  .gb-sidebar-category_denmoc .cssmenu.align-right > ul > li {
+    float: right; }
+  .gb-sidebar-category_denmoc .cssmenu.align-right ul ul {
+    text-align: right; }
+  .gb-sidebar-category_denmoc .cssmenu > ul > li > a {
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease; }
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+      .gb-sidebar-category_denmoc .cssmenu > ul > li > a {
+        font-size: 11px; } }
+  .gb-sidebar-category_denmoc .cssmenu > ul > li:hover > a,
+  .gb-sidebar-category_denmoc .cssmenu > ul > li.active > a {
+    color: #9e9e9e; }
+  .gb-sidebar-category_denmoc .cssmenu > ul > li.has-sub > a {
+    padding-right: 25px; }
+    .gb-sidebar-category_denmoc .cssmenu > ul > li.has-sub > a:hover:before {
+      content: '';
+      display: block; }
+  .gb-sidebar-category_denmoc .cssmenu > ul > li.has-sub > a::after {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    content: "\f105";
+    font-family: FontAwesome; }
+  .gb-sidebar-category_denmoc .cssmenu > ul > li.has-sub:hover > a::after {
+    border-color: #3f97da; }
+  .gb-sidebar-category_denmoc .cssmenu ul ul {
+    position: absolute;
+    left: -9999px;
+    z-index: 2;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    margin-right: 100%;
+    top: -1; }
+  .gb-sidebar-category_denmoc .cssmenu li:hover > ul {
+    left: 100%;
+    position: absolute;
+    top: -1px; }
+    .gb-sidebar-category_denmoc .cssmenu li:hover > ul li ul {
+      position: relative;
+      left: inherit;
+      margin-left: inherit;
+      width: auto;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: none;
+      padding: 0 0 0 20px; }
+  .gb-sidebar-category_denmoc .cssmenu.align-right li:hover > ul {
+    right: 0; }
+  .gb-sidebar-category_denmoc .cssmenu ul ul ul {
+    margin-left: 100%;
+    top: 0;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); }
+  .gb-sidebar-category_denmoc .cssmenu ul ul ul li a {
+    color: #666666; }
+  .gb-sidebar-category_denmoc .cssmenu.align-right ul ul ul {
+    margin-left: 0;
+    margin-right: 100%; }
+  .gb-sidebar-category_denmoc .cssmenu ul ul li {
+    -webkit-transition: height .2s ease;
+    -o-transition: height .2s ease;
+    transition: height .2s ease; }
+  .gb-sidebar-category_denmoc .cssmenu ul ul li {
+    padding: 0 10px; }
+    .gb-sidebar-category_denmoc .cssmenu ul ul li a {
+      display: block;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #666666;
+      min-width: 240px;
+      background: transparent;
+      text-decoration: none;
+      line-height: 30px;
+      -webkit-transition: color .2s ease;
+      -o-transition: color .2s ease;
+      transition: color .2s ease; }
+      .gb-sidebar-category_denmoc .cssmenu ul ul li a i {
+        padding-right: 10px; }
+  .gb-sidebar-category_denmoc .cssmenu ul ul li:first-child a {
+    border-top: none; }
+  .gb-sidebar-category_denmoc .cssmenu ul ul li:hover > a,
+  .gb-sidebar-category_denmoc .cssmenu ul ul li a:hover {
+    color: #9e9e9e;
+    background: #fff; }
+  .gb-sidebar-category_denmoc .cssmenu ul ul li.has-sub > a::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    content: "\f105";
+    font-family: FontAwesome; }
+  .gb-sidebar-category_denmoc .cssmenu.align-right ul ul li.has-sub > a::after {
+    right: auto;
+    left: 10px;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd; }
+  .gb-sidebar-category_denmoc .cssmenu ul ul li.has-sub:hover > a::after {
+    border-color: #fff; }
+
+/*SLIDESHOW*/
+.gb-slideshow_denmoc {
+  position: relative; }
+  .gb-slideshow_denmoc .owl-nav [class*=owl-] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #9e9e9e !important;
+    border: 3px solid #9e9e9e;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .gb-slideshow_denmoc .owl-nav [class*=owl-]:hover {
+      background: transparent !important;
+      border-color: #9e9e9e; }
+  .gb-slideshow_denmoc .owl-nav {
+    margin-top: 0 !important; }
+    @media screen and (max-width: 991px) and (min-width: 768px) {
+      .gb-slideshow_denmoc .owl-nav {
+        top: -78px; } }
+    .gb-slideshow_denmoc .owl-nav .owl-prev {
+      position: absolute;
+      top: 45%;
+      left: 20px;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .gb-slideshow_denmoc .owl-nav .owl-prev:before {
+        content: '\f104';
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 20px; }
+    .gb-slideshow_denmoc .owl-nav .owl-next {
+      position: absolute;
+      top: 45%;
+      right: 20px;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .gb-slideshow_denmoc .owl-nav .owl-next:before {
+        content: '\f105';
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 20px; }
+  .gb-slideshow_denmoc .owl-theme .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%; }
+  .gb-slideshow_denmoc .slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    @media screen and (max-width: 600px) {
+      .gb-slideshow_denmoc .slide-content {
+        display: none; } }
+    .gb-slideshow_denmoc .slide-content h4 {
+      display: block;
+      font-size: 30px;
+      line-height: 54px;
+      color: #9e9e9e;
+      font-weight: 900;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      text-transform: uppercase; }
+      @media screen and (max-width: 767px) {
+        .gb-slideshow_denmoc .slide-content h4 {
+          font-size: 18px;
+          line-height: 1;
+          margin-bottom: 10px; } }
+    .gb-slideshow_denmoc .slide-content p {
+      font-size: 16px;
+      color: #fff;
+      line-height: 24px; }
+      @media screen and (max-width: 767px) {
+        .gb-slideshow_denmoc .slide-content p {
+          font-size: 13px;
+          line-height: 18px; } }
+    .gb-slideshow_denmoc .slide-content a {
+      display: inline-block;
+      padding: 10px 25px;
+      background: #9e9e9e;
+      color: #fff;
+      border: 2px solid #9e9e9e;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-top: 30px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      @media screen and (max-width: 767px) {
+        .gb-slideshow_denmoc .slide-content a {
+          font-size: 14px;
+          padding: 7px 25px;
+          margin-top: 10px; } }
+      .gb-slideshow_denmoc .slide-content a:hover {
+        color: #9e9e9e;
+        background: transparent; }
+
+/*social*/
+.gb-top-header_denmoc-right-social {
+  text-align: right; }
+  .gb-top-header_denmoc-right-social ul li {
+    display: inline-block; }
+    .gb-top-header_denmoc-right-social ul li h4 {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #fff; }
+    .gb-top-header_denmoc-right-social ul li a {
+      display: block;
+      color: #fff;
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      padding: 0 10px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .gb-top-header_denmoc-right-social ul li a:hover {
+        color: #f79321; }
+      .gb-top-header_denmoc-right-social ul li a i {
+        width: 45px;
+        height: 45px;
+        background: #fff;
+        color: #f79321;
+        border-radius: 50%;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-right: 10px; }
+
+.footer-about-denmoc-social ul li {
+  display: inline-block; }
+  .footer-about-denmoc-social ul li a {
+    display: block;
+    color: #7a7a7a;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 8px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .footer-about-denmoc-social ul li a:hover {
+      color: #9e9e9e; }
+
+/*NEWS*/
+.gb-page-blog_denmoc {
+  padding: 50px 0; }
+  .gb-page-blog_denmoc .gb-news-blog_denmoc-item {
+    margin-bottom: 30px; }
+    .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-img {
+      position: relative;
+      z-index: 5;
+      overflow: hidden;
+      height: 240px; }
+      @media screen and (max-width: 767px) {
+        .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-img {
+          height: auto; } }
+      .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-img img {
+        width: 100%;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-img:hover img {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-img .caption-large {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        background-color: #ffffff;
+        -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+        min-width: 115px;
+        height: 40px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: bold;
+        color: #777777; }
+    .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-text .gb-news-blog_denmoc-item-title {
+      margin: 10px 0; }
+      .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-text .gb-news-blog_denmoc-item-title h3 a {
+        display: block;
+        font-size: 15px;
+        text-align: left;
+        color: #222222; }
+        .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-text .gb-news-blog_denmoc-item-title h3 a:hover {
+          color: #9e9e9e;
+          text-decoration: none; }
+    .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-text .gb-news-blog_denmoc-item-text-des p {
+      font-size: 14px;
+      line-height: 22px;
+      text-align: left;
+      color: #7b7b7b; }
+    .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-button {
+      margin-top: 30px; }
+      .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-button .btn {
+        border-radius: 0; }
+      .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-button .gb-btn-readmore {
+        background: #000;
+        color: white;
+        font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s; }
+        .gb-page-blog_denmoc .gb-news-blog_denmoc-item .gb-news-blog_denmoc-item-button .gb-btn-readmore:hover {
+          background-color: white;
+          color: #9e9e9e;
+          border: 1px solid #9e9e9e; }
+
+.gb-single-blog_denmoc {
+  padding: 50px 0; }
+
+.gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-img img {
+  width: 100%;
+  height: auto; }
+
+.gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-title {
+  margin-top: 30px;
+  margin-bottom: 26px; }
+  .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-title h2 {
+    font-size: 30px;
+    line-height: 0.87;
+    text-align: left;
+    color: #222222; }
+    @media screen and (max-width: 767px) {
+      .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-title h2 {
+        font-size: 24px;
+        line-height: 26px; } }
+
+.gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-info {
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  margin-bottom: 30px;
+  padding-top: 13px;
+  padding-bottom: 14px; }
+  .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-info ul {
+    margin: 0;
+    padding: 0; }
+    .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-info ul li {
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 30px;
+      font-family: 'Open Sans', serif;
+      font-size: 14px;
+      font-style: italic;
+      line-height: 1.86;
+      text-align: left;
+      color: #7b7b7b; }
+      @media screen and (max-width: 767px) {
+        .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-info ul li {
+          margin-right: 24px; } }
+      .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-info ul li .fa {
+        font-family: FontAwesome;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1.63;
+        color: #9e9e9e;
+        margin-right: 10px; }
+      .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-info ul li a {
+        color: #7b7b7b; }
+        .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-info ul li a:hover {
+          text-decoration: none;
+          color: #9e9e9e; }
+
+.gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-text p {
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: left;
+  color: #7b7b7b; }
+  .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-text p span {
+    color: #9e9e9e;
+    margin-right: 10px; }
+
+.gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-text .gb-single-blog_denmoc-quote {
+  margin: 20px 0; }
+  .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-text .gb-single-blog_denmoc-quote blockquote {
+    border-left: none; }
+    .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-text .gb-single-blog_denmoc-quote blockquote.quote-card {
+      position: relative;
+      padding-left: 71px;
+      border-top: 1px solid #9e9e9e;
+      background: #f9f9f9; }
+      .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-text .gb-single-blog_denmoc-quote blockquote.quote-card:before {
+        content: "“";
+        position: absolute;
+        top: 0;
+        left: 15px;
+        font-size: 120px;
+        color: #9e9e9e;
+        font-weight: normal; }
+    .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-text .gb-single-blog_denmoc-quote blockquote h4 {
+      font-size: 16px;
+      font-style: italic;
+      line-height: 1.88;
+      text-align: left;
+      color: #222222; }
+    .gb-single-blog_denmoc-right .gb-single-blog_denmoc-right-text .gb-single-blog_denmoc-quote blockquote h3 {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.63;
+      text-align: left;
+      color: #222222; }
+
+.gb-single-blog_denmoc-right .gb-single-blog_denmoc-share {
+  border-top: 1px solid #e9e9e9;
+  padding-top: 10px;
+  margin-top: 37px;
+  margin-bottom: 76px; }
+  .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-left ul {
+    margin: 0;
+    padding: 0; }
+    .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-left ul li {
+      list-style-type: none;
+      display: inline-block;
+      border: 1px solid #e9e9e9;
+      padding: 5px 15px; }
+      .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-left ul li a {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.86;
+        text-align: center;
+        color: #aeaeae;
+        text-decoration: none; }
+        .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-left ul li a:hover {
+          color: #9e9e9e; }
+  .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right {
+    position: absolute;
+    right: -36px; }
+    @media screen and (max-width: 767px) {
+      .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right {
+        width: 100%;
+        right: 0;
+        margin-top: 15px; } }
+    .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul {
+      margin: 0;
+      padding: 0; }
+      .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li {
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+        width: 36px;
+        height: 36px;
+        border-radius: 3px;
+        background-color: #f4f4f4;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li:first-child {
+          border: none;
+          width: 20%;
+          background: none; }
+        .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li a {
+          text-decoration: none; }
+          .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li a .fa {
+            font-family: FontAwesome;
+            font-size: 14px;
+            line-height: 1.86;
+            text-align: center;
+            color: #aeaeae;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+        .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li span {
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 2.17;
+          text-align: right;
+          color: #7b7b7b;
+          position: absolute; }
+        .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li:nth-child(2):hover {
+          background: #3b5998;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li:nth-child(2):hover a .fa {
+            color: white !important; }
+        .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li:nth-child(3):hover {
+          background: #2caae1;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li:nth-child(3):hover a .fa {
+            color: white !important; }
+        .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li:nth-child(4):hover {
+          background: #9e9e9e;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li:nth-child(4):hover a .fa {
+            color: white !important; }
+        .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li:nth-child(5):hover {
+          background: #007bb6;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li:nth-child(5):hover a .fa {
+            color: white !important; }
+        .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li:nth-child(6):hover {
+          background: #9e9e9e;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          .gb-single-blog_denmoc-right .gb-single-blog_denmoc-share .gb-single-blog_denmoc-share-right ul li:nth-child(6):hover a .fa {
+            color: white !important; }
+
+.gb-tintuc-lienquan .gb-tintuc-lienquan-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #9e9e9e;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px; }
+
+.gb-tintuc-lienquan .gb-tintuc-item .item-img {
+  height: 130px;
+  overflow: hidden; }
+
+.gb-tintuc-lienquan .gb-tintuc-item .item-text {
+  padding-top: 10px; }
+  .gb-tintuc-lienquan .gb-tintuc-item .item-text h2 a {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-height: 22px;
+    overflow: hidden; }
+  .gb-tintuc-lienquan .gb-tintuc-item .item-text p {
+    font-size: 14px;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden; }
+
+.gb-tintuc-lienquan .gb-tintuc-item time {
+  display: block;
+  margin: 15px 0; }
+
+.gb-tintuc-lienquan .gb-tintuc-item .btn-doctiep a {
+  display: inline-block;
+  min-width: 120px;
+  border: 1px solid #9e9e9e;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 14px;
+  background: #9e9e9e;
+  margin-top: 10px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .gb-tintuc-lienquan .gb-tintuc-item .btn-doctiep a:hover {
+    color: #9e9e9e;
+    background: transparent; }
+
+/*introduce*/
+.gb-introvechungtoi_rem {
+  padding: 50px 0;
+  background: #f1f1f1; }
+  .gb-introvechungtoi_rem .gb-introvechungtoi_denmoc-left h2 {
+    font-size: 24px;
+    text-transform: uppercase; }
+  .gb-introvechungtoi_rem .gb-introvechungtoi_denmoc-left .gb-divider {
+    border-color: #f79321;
+    margin: 15px 0; }
+  .gb-introvechungtoi_rem .gb-introvechungtoi_denmoc-left p {
+    font-size: 16px;
+    line-height: 1.5; }
+  .gb-introvechungtoi_rem .gb-introvechungtoi_denmoc-left .gb-introvechungtoi_denmoc-doctiep {
+    background: #f79321;
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #f79321;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-top: 30px; }
+    .gb-introvechungtoi_rem .gb-introvechungtoi_denmoc-left .gb-introvechungtoi_denmoc-doctiep:hover {
+      color: #f79321;
+      background: transparent; }
+  .gb-introvechungtoi_rem .gb-introvechungtoi_denmoc-right img {
+    width: 100%;
+    height: auto; }
+
+/*PRODUCT*/
+.gb-home-categgory-product_denmoc {
+  padding: 50px 0; }
+  .gb-home-categgory-product_denmoc .gb-home-product_denmoc_title {
+    display: flow-root;
+    margin-bottom: 30px; }
+    .gb-home-categgory-product_denmoc .gb-home-product_denmoc_title h2 {
+      position: relative;
+      display: inline-block; }
+      .gb-home-categgory-product_denmoc .gb-home-product_denmoc_title h2:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: #000; }
+      .gb-home-categgory-product_denmoc .gb-home-product_denmoc_title h2 a {
+        display: block;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #000; }
+    .gb-home-categgory-product_denmoc .gb-home-product_denmoc_title .xemtatca_denmoc {
+      font-size: 16px;
+      font-weight: 300;
+      color: #000;
+      border: 1px solid #333;
+      padding: 7px 15px;
+      border-radius: 20px;
+      float: right;
+      margin-top: 10px; }
+  .gb-home-categgory-product_denmoc .gb-product_denmoc-item {
+    background: #dfdfdf;
+    padding: 5px;
+    margin-bottom: 30px; }
+    .gb-home-categgory-product_denmoc .gb-product_denmoc-item .product-item-img {
+      border-radius: 10px;
+      overflow: hidden; }
+      .gb-home-categgory-product_denmoc .gb-product_denmoc-item .product-item-img img {
+        width: 100%;
+        height: 326px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        .gb-home-categgory-product_denmoc .gb-product_denmoc-item .product-item-img img:hover {
+          -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          transform: scale(1.1); }
+    .gb-home-categgory-product_denmoc .gb-product_denmoc-item .product-item-text {
+      padding: 10px 15px; }
+      .gb-home-categgory-product_denmoc .gb-product_denmoc-item .product-item-text h3 a {
+        display: block;
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        color: #000; }
+      .gb-home-categgory-product_denmoc .gb-product_denmoc-item .product-item-text .product-btn-cart_denmoc {
+        text-align: right; }
+
+.prices_denmoc {
+  display: block;
+  font-size: 14px;
+  line-height: 21px; }
+  .prices_denmoc .prices_denmoc-news {
+    color: #c41230;
+    font-weight: 600; }
+  .prices_denmoc .prices_denmoc-old {
+    color: #9e9e9e;
+    text-decoration: line-through;
+    font-weight: 300; }
+
+.gb-page-sanpham_denmoc {
+  padding: 50px 0; }
+  .gb-page-sanpham_denmoc .gb-product_denmoc-item {
+    background: #dfdfdf;
+    padding: 5px;
+    margin-bottom: 30px; }
+    .gb-page-sanpham_denmoc .gb-product_denmoc-item .product-item-img {
+      border-radius: 10px;
+      overflow: hidden; }
+      .gb-page-sanpham_denmoc .gb-product_denmoc-item .product-item-img img {
+        width: 100%;
+        height: 326px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        .gb-page-sanpham_denmoc .gb-product_denmoc-item .product-item-img img:hover {
+          -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          transform: scale(1.1); }
+    .gb-page-sanpham_denmoc .gb-product_denmoc-item .product-item-text {
+      padding: 10px 15px; }
+      .gb-page-sanpham_denmoc .gb-product_denmoc-item .product-item-text h3 a {
+        display: block;
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        color: #000; }
+      .gb-page-sanpham_denmoc .gb-product_denmoc-item .product-item-text .product-btn-cart_denmoc {
+        text-align: right; }
+
+/*SLIDE IMAGE*/
+.gb-chitiet_sanpham_denmoc-body {
+  padding: 50px 0; }
+  .gb-chitiet_sanpham_denmoc-body .titleCategoryProduct_denmoc {
+    text-align: center;
+    font-size: 30px;
+    color: #9e9e9e;
+    margin: 10px 0;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 30px; }
+    .gb-chitiet_sanpham_denmoc-body .titleCategoryProduct_denmoc:after {
+      position: absolute;
+      bottom: -15px;
+      height: 0;
+      width: 150px;
+      border-bottom: 3px double #9e9e9e;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      content: ""; }
+  .gb-chitiet_sanpham_denmoc-body .gb-divider {
+    margin: 20px 0; }
+  .gb-chitiet_sanpham_denmoc-body .slider-for {
+    background: #fff;
+    border: 1px solid #dcdcdc; }
+    @media screen and (min-width: 992px) {
+      .gb-chitiet_sanpham_denmoc-body .slider-for {
+        height: 316px;
+        overflow: hidden; } }
+    .gb-chitiet_sanpham_denmoc-body .slider-for img {
+      width: auto;
+      height: 316px;
+      margin: 0 auto; }
+  .gb-chitiet_sanpham_denmoc-body .slide-item-nav {
+    border: 1px solid #dcdcdc;
+    margin: 0 5px;
+    background: #f1f1f1; }
+  .gb-chitiet_sanpham_denmoc-body .slider-nav {
+    margin-top: 10px; }
+    .gb-chitiet_sanpham_denmoc-body .slider-nav .slide-item-nav {
+      background: #fff; }
+    .gb-chitiet_sanpham_denmoc-body .slider-nav img {
+      height: 100px;
+      margin: 0 auto; }
+  .gb-chitiet_sanpham_denmoc-body .price-outer-container .prices_denmoc {
+    text-align: left; }
+  .gb-chitiet_sanpham_denmoc-body .gb-thongso-mota {
+    margin: 40px 0; }
+    .gb-chitiet_sanpham_denmoc-body .gb-thongso-mota .tab-content {
+      padding: 20px; }
+      .gb-chitiet_sanpham_denmoc-body .gb-thongso-mota .tab-content p {
+        display: block;
+        color: #797979;
+        font-size: 14px;
+        font-weight: 400; }
+  .gb-chitiet_sanpham_denmoc-body .item-price .news-price {
+    font-size: 26px; }
+  .gb-chitiet_sanpham_denmoc-body .item-price .old-price {
+    font-size: 16px; }
+  .gb-chitiet_sanpham_denmoc-body .price-outer-container {
+    margin-top: 15px; }
+    .gb-chitiet_sanpham_denmoc-body .price-outer-container .price_CategoryProduct_Home_1_denmoc .price_old_denmoc {
+      font-size: 20px;
+      text-align: left; }
+    .gb-chitiet_sanpham_denmoc-body .price-outer-container .price_CategoryProduct_Home_1_denmoc .price_old_news {
+      font-size: 24px;
+      text-align: left; }
+
+/*SLIDE IMAGE*/
+@media screen and (max-width: 991px) {
+  .gb-chitiet_sanpham_denmoc-left .gb-chitiet_sanpham_DENMOC_left-info {
+    padding-top: 20px; } }
+
+.gb-chitiet_sanpham_denmoc-left .gb-chitiet_sanpham_DENMOC_left-info h1 {
+  font-size: 24px;
+  color: #333; }
+
+.gb-chitiet_sanpham_denmoc-left .gb-chitiet_sanpham_DENMOC_left-info .description {
+  margin-top: 20px; }
+  .gb-chitiet_sanpham_denmoc-left .gb-chitiet_sanpham_DENMOC_left-info .description p {
+    display: block;
+    color: #797979;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px; }
+
+.gb-thongso-mota .tabbable-line > .nav-tabs {
+  border-bottom: 1px solid #9e9e9e;
+  margin: 0; }
+
+.gb-thongso-mota .tabbable-line > .nav-tabs > li {
+  margin-right: 2px; }
+
+.gb-thongso-mota .tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #333;
+  font-size: 15px;
+  font-weight: 600; }
+
+.gb-thongso-mota .tabbable-line > .nav-tabs > li.open, .gb-thongso-mota .tabbable-line > .nav-tabs > li:hover {
+  border: 1px solid #9e9e9e;
+  position: relative;
+  border-bottom: none;
+  margin-bottom: -1px; }
+
+.gb-thongso-mota .tabbable-line > .nav-tabs > li.open > a, .gb-thongso-mota .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #9e9e9e; }
+
+.gb-thongso-mota .tabbable-line > .nav-tabs > li.active {
+  border: 1px solid #9e9e9e;
+  position: relative;
+  border-bottom: none;
+  margin-bottom: -1px; }
+  .gb-thongso-mota .tabbable-line > .nav-tabs > li.active a {
+    color: #9e9e9e; }
+
+.gb-thongso-mota .tabbable-line > .tab-content {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 0; }
+
+.gb-thongso-mota .portlet .tabbable-line > .tab-content {
+  padding-bottom: 0; }
+
+.gb-thongso-mota .tab-content h1 {
+  font-size: 24px;
+  font-weight: 600; }
+
+.gb-thongso-mota .tab-content h2 {
+  font-size: 22px;
+  font-weight: 600; }
+
+.gb-thongso-mota .tab-content h3 {
+  font-size: 20px;
+  font-weight: 600; }
+
+.gb-thongso-mota .tab-content h4 {
+  font-size: 18px;
+  font-weight: 600; }
+
+.gb-thongso-mota .tab-content h5 {
+  font-size: 16px;
+  font-weight: 600; }
+
+.gb-thongso-mota .tab-content h6 {
+  font-size: 14px;
+  font-weight: 600; }
+
+.gb-thongso-mota .tab-content ul li {
+  display: block;
+  color: #333;
+  font-size: 16px;
+  line-height: 26px; }
+
+.gb-thongso-mota .tab-content p {
+  color: #333;
+  font-size: 16px;
+  line-height: 26px; }
+
+/*entry meta*/
+.gb-entry-meta .gb-authour {
+  font-size: 20px;
+  line-height: 1.5; }
+  .gb-entry-meta .gb-authour a {
+    color: #9e9e9e; }
+
+.gb-entry-meta .get-by {
+  font-size: 16px;
+  color: #9e9e9e;
+  line-height: 1.5; }
+
+/*ENTRY SHIPPING*/
+.gb-entry-shipping p {
+  font-size: 16px; }
+  .gb-entry-shipping p i {
+    color: #9e9e9e;
+    font-size: 24px; }
+
+.product-share-block .share-heading {
+  font-size: 18px;
+  color: #7a7a7a;
+  float: left;
+  padding-right: 20px;
+  padding-top: 10px; }
+
+.product-share-block ul li {
+  display: inline-block; }
+  .product-share-block ul li a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #9e9e9e;
+    color: #9e9e9e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .product-share-block ul li a:hover {
+      background: #9e9e9e;
+      color: #fff; }
+
+.gb-home-product-relate .owl-nav [class*=owl-] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 53px;
+  height: 92px;
+  background: transparent !important;
+  border: none;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .gb-home-product-relate .owl-nav [class*=owl-]:hover {
+    background: transparent !important;
+    border-color: #9e9e9e; }
+
+.gb-home-product-relate .owl-nav {
+  margin-top: 0 !important; }
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    .gb-home-product-relate .owl-nav {
+      top: -78px; } }
+  .gb-home-product-relate .owl-nav .owl-prev {
+    position: absolute;
+    top: 45%;
+    left: -60px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; }
+    .gb-home-product-relate .owl-nav .owl-prev:before {
+      content: '';
+      background: url("../images/icons/md-left.svg");
+      width: 53px;
+      height: 92px;
+      font-family: FontAwesome;
+      color: #fff;
+      font-size: 20px; }
+  .gb-home-product-relate .owl-nav .owl-next {
+    position: absolute;
+    top: 45%;
+    right: -60px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; }
+    .gb-home-product-relate .owl-nav .owl-next:before {
+      content: '';
+      background: url("../images/icons/md-right.svg");
+      width: 53px;
+      height: 92px;
+      font-family: FontAwesome;
+      color: #fff;
+      font-size: 20px; }
+
+.gb-home-product-relate .gb-product_denmoc-item {
+  background: #dfdfdf;
+  padding: 5px;
+  margin-bottom: 30px; }
+  .gb-home-product-relate .gb-product_denmoc-item .product-item-img {
+    border-radius: 10px;
+    overflow: hidden; }
+    .gb-home-product-relate .gb-product_denmoc-item .product-item-img img {
+      width: 100%;
+      height: 326px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .gb-home-product-relate .gb-product_denmoc-item .product-item-img img:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1); }
+  .gb-home-product-relate .gb-product_denmoc-item .product-item-text {
+    padding: 10px 15px; }
+    .gb-home-product-relate .gb-product_denmoc-item .product-item-text h3 a {
+      display: block;
+      font-size: 13px;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      color: #000; }
+    .gb-home-product-relate .gb-product_denmoc-item .product-item-text .product-btn-cart_denmoc {
+      text-align: right; }
+
+.gb-danhmucproduct-denmoc {
+  padding-bottom: 50px; }
+  .gb-danhmucproduct-denmoc .gb-danhmucproduct-denmoc-item a {
+    display: block; }
+    .gb-danhmucproduct-denmoc .gb-danhmucproduct-denmoc-item a h2 {
+      font-size: 13px;
+      text-transform: uppercase;
+      margin-top: 15px;
+      color: #000;
+      text-align: center; }
+  .gb-danhmucproduct-denmoc .owl-nav [class*=owl-] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 53px;
+    height: 92px;
+    background: transparent !important;
+    border: none;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .gb-danhmucproduct-denmoc .owl-nav [class*=owl-]:hover {
+      background: transparent !important;
+      border-color: #9e9e9e; }
+  .gb-danhmucproduct-denmoc .owl-nav {
+    margin-top: 0 !important; }
+    @media screen and (max-width: 991px) and (min-width: 768px) {
+      .gb-danhmucproduct-denmoc .owl-nav {
+        top: -78px; } }
+    .gb-danhmucproduct-denmoc .owl-nav .owl-prev {
+      position: absolute;
+      top: 45%;
+      left: -60px;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .gb-danhmucproduct-denmoc .owl-nav .owl-prev:before {
+        content: '';
+        background: url("../images/icons/md-left.svg");
+        width: 53px;
+        height: 92px;
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 20px; }
+    .gb-danhmucproduct-denmoc .owl-nav .owl-next {
+      position: absolute;
+      top: 45%;
+      right: -60px;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .gb-danhmucproduct-denmoc .owl-nav .owl-next:before {
+        content: '';
+        background: url("../images/icons/md-right.svg");
+        width: 53px;
+        height: 92px;
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 20px; }
+
+.gb-col-4-news-product_denmoc {
+  padding-top: 30px; }
+  .gb-col-4-news-product_denmoc .gb-col-4-news-product_denmoc-item .gb-col-4-news-product_denmoc-item-item {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    background: #9e9e9e;
+    padding: 0 30px;
+    border-left: 5px solid #f79321;
+    margin-bottom: 30px; }
+  .gb-col-4-news-product_denmoc .gb-col-4-news-product_denmoc-item .gb-product-sidebar_denmoc-item {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #e0e0e0; }
+    .gb-col-4-news-product_denmoc .gb-col-4-news-product_denmoc-item .gb-product-sidebar_denmoc-item:last-child {
+      border-bottom: none; }
+    .gb-col-4-news-product_denmoc .gb-col-4-news-product_denmoc-item .gb-product-sidebar_denmoc-item .gb-product-sidebar_denmoc-item-img {
+      float: left;
+      border: 1px solid #E0E0E0; }
+      .gb-col-4-news-product_denmoc .gb-col-4-news-product_denmoc-item .gb-product-sidebar_denmoc-item .gb-product-sidebar_denmoc-item-img img {
+        width: 60px;
+        height: 60px;
+        overflow: hidden; }
+    .gb-col-4-news-product_denmoc .gb-col-4-news-product_denmoc-item .gb-product-sidebar_denmoc-item .gb-product-sidebar_denmoc-item-info {
+      padding-left: 80px; }
+      .gb-col-4-news-product_denmoc .gb-col-4-news-product_denmoc-item .gb-product-sidebar_denmoc-item .gb-product-sidebar_denmoc-item-info h4 a {
+        display: block;
+        font-size: 14px;
+        line-height: 21px;
+        color: #333;
+        font-weight: 500;
+        margin-bottom: 10px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden; }
+      .gb-col-4-news-product_denmoc .gb-col-4-news-product_denmoc-item .gb-product-sidebar_denmoc-item .gb-product-sidebar_denmoc-item-info .prices_denmoc {
+        font-size: 14px; }
+
+/*CART*/
+.product-btn-cart_denmoc .btn-cart-denmoc {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 0;
+  background: #9e9e9e; }
+  .product-btn-cart_denmoc .btn-cart-denmoc i {
+    font-size: 18px;
+    color: #000; }
+
+.gb-chi-tiet-add-to-cart .gb-selectsize label {
+  position: relative;
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 2.18;
+  text-align: left;
+  color: #666666;
+  text-transform: uppercase; }
+  .gb-chi-tiet-add-to-cart .gb-selectsize label span {
+    position: absolute;
+    right: 0; }
+
+.gb-chi-tiet-add-to-cart .gb-selectsize .form-control {
+  border-radius: 0; }
+
+.gb-chi-tiet-add-to-cart .quantity {
+  float: left;
+  width: 70%; }
+  .gb-chi-tiet-add-to-cart .quantity label {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 2.18;
+    text-align: left;
+    color: #666666;
+    text-transform: uppercase; }
+  .gb-chi-tiet-add-to-cart .quantity input {
+    width: 100%;
+    height: 36px;
+    border-radius: 0;
+    border: solid 1px #aeaeae; }
+  .gb-chi-tiet-add-to-cart .quantity .form-control {
+    margin-bottom: 0; }
+  .gb-chi-tiet-add-to-cart .quantity .form-group {
+    margin-bottom: 0; }
+
+.gb-chi-tiet-add-to-cart .cart {
+  position: relative;
+  padding-top: 20px; }
+
+.gb-chi-tiet-add-to-cart .single_add_to_cart_button {
+  position: absolute;
+  bottom: 0;
+  background: #9e9e9e;
+  padding: 6px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 1px solid #9e9e9e;
+  border-radius: 0;
+  margin-left: 10px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  right: 0; }
+  .gb-chi-tiet-add-to-cart .single_add_to_cart_button:hover {
+    color: #9e9e9e;
+    background: transparent; }
+
+.gb-chi-tiet-add-to-cart .product_meta {
+  padding-top: 25px; }
+  .gb-chi-tiet-add-to-cart .product_meta span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #404040;
+    text-transform: uppercase; }
+    .gb-chi-tiet-add-to-cart .product_meta span a {
+      font-size: 14px;
+      font-weight: normal;
+      text-align: left;
+      color: #808080;
+      text-transform: none; }
+      .gb-chi-tiet-add-to-cart .product_meta span a:after {
+        content: ","; }
+      .gb-chi-tiet-add-to-cart .product_meta span a:last-child:after {
+        content: ""; }
+
+.btn-yeuthich {
+  display: inline-block;
+  color: #000;
+  font-size: 13px;
+  text-transform: uppercase;
+  background: #ccc;
+  padding: 10px 15px;
+  text-align: center; }
+
+/*CART*/
+.cart-header_denmoc {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000; }
+  .cart-header_denmoc i {
+    font-size: 18px; }
+
+/*FOOTER*/
+.footer-main-content_denmoc {
+  background: #302f2f;
+  padding: 50px 0; }
+
+.copyright-area_denmoc p {
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  padding: 15px 0;
+  color: #7a7a7a; }
+
+.widget-title-footer-denmoc {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #fff; }
+
+/*footer-about-denmoc*/
+.footer-link-denmoc ul li a {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  line-height: 22px; }
+
+/*EMAIL*/
+.gb-footer-newletter_denmoc h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 10px; }
+
+.gb-footer-newletter_denmoc .input-group {
+  border-radius: 4px; }
+
+.gb-footer-newletter_denmoc .form-control {
+  height: 44px;
+  border: 1px solid #dbdbdb;
+  border-radius: 0; }
+
+.gb-footer-newletter_denmoc p {
+  color: #808080;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 20px; }
+
+.gb-footer-newletter_denmoc span .btn-theme {
+  height: 44px;
+  color: #333;
+  border-radius: 0;
+  border: 1px solid #dbdbdb;
+  background: transparent; }
+
+.gb-lienhe {
+  padding: 50px 0; }
+
+.gb-form-lienhe h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #333;
+  margin-top: 10px;
+  text-transform: uppercase;
+  margin-bottom: 5px; }
+
+.gb-form-lienhe form label {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #333;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.gb-form-lienhe .btn-gui {
+  min-width: 200px;
+  background: #9e9e9e;
+  border: 2px solid #9e9e9e;
+  color: #fff;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .gb-form-lienhe .btn-gui:hover {
+    background: transparent;
+    color: #9e9e9e; }
+
+.gb-thongtin-theodoi_denmoc {
+  background: #f79321;
+  padding: 10px 0; }
+
+.footer-dangkynhanthongbao-denmoc .input-group {
+  border-radius: 4px; }
+
+.footer-dangkynhanthongbao-denmoc .form-control {
+  height: 44px;
+  border: 1px solid #dbdbdb;
+  border-radius: 0; }
+
+.footer-dangkynhanthongbao-denmoc p {
+  color: #fff;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 20px; }
+
+.footer-dangkynhanthongbao-denmoc span .btn-theme {
+  height: 44px;
+  color: #f79321;
+  border-radius: 0;
+  border: 1px solid #dbdbdb;
+  background: transparent; }
+
+/*sidebar*/
+.widget-sidebar {
+  margin-bottom: 30px; }
+
+.gb-timkiem-sidebar-denmoc .widget-title-sidebar-denmoc {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  line-height: 40px;
+  padding-left: 20px;
+  background: rgba(158, 158, 158, 0.145);
+  border-left: 5px solid #f79321; }
+
+.gb-timkiem-sidebar-denmoc .vk-newlist-banner-test-search button {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+
+.gb-timkiem-sidebar-denmoc .vk-newlist-banner-test-search button:hover {
+  background: #9e9e9e;
+  color: #fff; }
+
+.gb-timkiem-sidebar-denmoc form {
+  border-radius: 0;
+  overflow: hidden; }
+
+.gb-timkiem-sidebar-denmoc .vk-newlist-banner-test-search {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border: solid 1px #9e9e9e;
+  border-radius: 0; }
+  .gb-timkiem-sidebar-denmoc .vk-newlist-banner-test-search input {
+    width: 80%;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #333;
+    background: transparent;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-indent: 15px; }
+  .gb-timkiem-sidebar-denmoc .vk-newlist-banner-test-search button {
+    width: 20%;
+    height: 48px;
+    background: #9e9e9e;
+    border: none;
+    border-left: 1px solid #9e9e9e;
+    outline: none;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    font-size: 14px;
+    float: right;
+    border-radius: 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .gb-timkiem-sidebar-denmoc .vk-newlist-banner-test-search button:hover {
+      color: #9e9e9e;
+      background: transparent; }
+
+.gb-danhmuc-sidebar-denmoc .widget-title-sidebar-denmoc {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  line-height: 40px;
+  padding-left: 20px;
+  background: rgba(158, 158, 158, 0.145);
+  border-left: 5px solid #f79321; }
+
+.gb-danhmuc-sidebar-denmoc ul li a {
+  display: block;
+  font-size: 14px;
+  line-height: 2.57;
+  text-align: left;
+  color: #7b7b7b; }
+  .gb-danhmuc-sidebar-denmoc ul li a:hover {
+    text-decoration: none;
+    color: #9e9e9e; }
+  .gb-danhmuc-sidebar-denmoc ul li a span {
+    font-size: 10px;
+    margin-right: 7px;
+    color: #9e9e9e; }
+
+.gb-recenpost-sidebar-denmoc .widget-title-sidebar-denmoc {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  line-height: 40px;
+  padding-left: 20px;
+  background: rgba(158, 158, 158, 0.145);
+  border-left: 5px solid #f79321; }
+
+.gb-recenpost-sidebar-denmoc .gb-blog-left-recent-posts_denmoc ul {
+  padding: 0; }
+  .gb-recenpost-sidebar-denmoc .gb-blog-left-recent-posts_denmoc ul li {
+    list-style-type: none;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #eee; }
+    .gb-recenpost-sidebar-denmoc .gb-blog-left-recent-posts_denmoc ul li:first-child {
+      padding-top: 0;
+      border: none; }
+    .gb-recenpost-sidebar-denmoc .gb-blog-left-recent-posts_denmoc ul li .gb-item-recent-posts_denmoc .gb-item-recent-posts_denmoc-img {
+      float: left;
+      margin-right: 20px;
+      position: relative; }
+      .gb-recenpost-sidebar-denmoc .gb-blog-left-recent-posts_denmoc ul li .gb-item-recent-posts_denmoc .gb-item-recent-posts_denmoc-img img {
+        width: 70px;
+        height: 70px;
+        border-radius: 3px; }
+    .gb-recenpost-sidebar-denmoc .gb-blog-left-recent-posts_denmoc ul li .gb-item-recent-posts_denmoc .gb-item-recent-posts_denmoc-text {
+      padding-left: 90px; }
+      .gb-recenpost-sidebar-denmoc .gb-blog-left-recent-posts_denmoc ul li .gb-item-recent-posts_denmoc .gb-item-recent-posts_denmoc-text h2 {
+        margin: 0; }
+        .gb-recenpost-sidebar-denmoc .gb-blog-left-recent-posts_denmoc ul li .gb-item-recent-posts_denmoc .gb-item-recent-posts_denmoc-text h2 a {
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 1.57;
+          text-align: left;
+          color: #222222;
+          overflow: hidden;
+          display: block;
+          margin-bottom: 10px; }
+          .gb-recenpost-sidebar-denmoc .gb-blog-left-recent-posts_denmoc ul li .gb-item-recent-posts_denmoc .gb-item-recent-posts_denmoc-text h2 a:hover {
+            text-decoration: none;
+            color: #9e9e9e; }
+      .gb-recenpost-sidebar-denmoc .gb-blog-left-recent-posts_denmoc ul li .gb-item-recent-posts_denmoc .gb-item-recent-posts_denmoc-text .gb-item-recent-post-time_denmoc span {
+        font-size: 13px;
+        line-height: 2;
+        text-align: left;
+        color: #aeaeae; }
+        .gb-recenpost-sidebar-denmoc .gb-blog-left-recent-posts_denmoc ul li .gb-item-recent-posts_denmoc .gb-item-recent-posts_denmoc-text .gb-item-recent-post-time_denmoc span .fa {
+          font-family: 'FontAwesome';
+          font-size: 14px;
+          text-align: left;
+          color: #9e9e9e;
+          margin-right: 10px; }
+
+.gb-product-sidebar-denmoc .widget-title-sidebar-denmoc {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  line-height: 40px;
+  padding-left: 20px;
+  background: rgba(158, 158, 158, 0.145);
+  border-left: 5px solid #f79321; }
+
+.gb-product-sidebar-denmoc .gb-product-sidebar_denmoc-item {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #e0e0e0; }
+  .gb-product-sidebar-denmoc .gb-product-sidebar_denmoc-item:last-child {
+    border-bottom: none; }
+  .gb-product-sidebar-denmoc .gb-product-sidebar_denmoc-item .gb-product-sidebar_denmoc-item-img {
+    float: left;
+    border: 1px solid #E0E0E0; }
+    .gb-product-sidebar-denmoc .gb-product-sidebar_denmoc-item .gb-product-sidebar_denmoc-item-img img {
+      width: 60px;
+      height: 60px;
+      overflow: hidden; }
+  .gb-product-sidebar-denmoc .gb-product-sidebar_denmoc-item .gb-product-sidebar_denmoc-item-info {
+    padding-left: 80px; }
+    .gb-product-sidebar-denmoc .gb-product-sidebar_denmoc-item .gb-product-sidebar_denmoc-item-info h4 a {
+      display: block;
+      font-size: 14px;
+      line-height: 21px;
+      color: #333;
+      font-weight: 500;
+      margin-bottom: 10px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden; }
+    .gb-product-sidebar-denmoc .gb-product-sidebar_denmoc-item .gb-product-sidebar_denmoc-item-info .prices_denmoc {
+      font-size: 14px;
+      text-align: left; }
+
+.gb-filterprices-sidebar-denmoc .widget-title-sidebar-denmoc {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  line-height: 40px;
+  padding-left: 20px;
+  background: rgba(158, 158, 158, 0.145);
+  border-left: 5px solid #f79321; }
+
+.gb-filterprices-sidebar-denmoc #slider-range {
+  width: 100%;
+  height: 5px;
+  background: #E0E0E0;
+  border-radius: 2px;
+  border: none;
+  margin-top: 40px; }
+
+.gb-filterprices-sidebar-denmoc .ui-state-active {
+  border-color: transparent;
+  background: transparent; }
+
+.gb-filterprices-sidebar-denmoc .ui-state-default {
+  position: relative;
+  border-color: transparent;
+  background: transparent;
+  outline: none; }
+  .gb-filterprices-sidebar-denmoc .ui-state-default:before {
+    content: '';
+    width: 16px !important;
+    height: 16px !important;
+    background: #f79321 !important;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    top: 0px;
+    position: absolute; }
+  .gb-filterprices-sidebar-denmoc .ui-state-default:after {
+    content: '';
+    width: 10px !important;
+    height: 10px !important;
+    background: #fff !important;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    top: 3px;
+    left: 3px;
+    position: absolute; }
+
+.gb-filterprices-sidebar-denmoc .ui-slider-horizontal .ui-slider-range {
+  background: #f79321;
+  margin-left: -5px; }
+
+.gb-filterprices-sidebar-denmoc .ui-slider-horizontal .ui-slider-range {
+  background: #f79321;
+  margin-left: -5px; }
+
+.gb-filterprices-sidebar-denmoc .label-filter-price {
+  text-align: center;
+  margin-top: 25px; }
+  .gb-filterprices-sidebar-denmoc .label-filter-price input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f79321;
+    border: none;
+    background: transparent; }
+
+.gb-filterprices-sidebar-denmoc .btn-filter-prince {
+  width: 100%;
+  height: 44px;
+  border: none;
+  outline: none;
+  background: #f79321;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  border-radius: 3px;
+  color: #FFF;
+  position: relative;
+  margin-top: 25px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .gb-filterprices-sidebar-denmoc .btn-filter-prince:hover {
+    border: 1px solid #f79321;
+    background: none;
+    color: #f79321;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+
+.gb-filterprices-sidebar-denmoc .ui-state-default, .gb-filterprices-sidebar-denmoc .ui-widget-content .ui-state-default, .gb-filterprices-sidebar-denmoc .ui-widget-header .ui-state-default, .gb-filterprices-sidebar-denmoc .ui-button, .gb-filterprices-sidebar-denmoc html .ui-button.ui-state-disabled:hover, .gb-filterprices-sidebar-denmoc html .ui-button.ui-state-disabled:active {
+  border: none;
+  background: transparent; }
+
+.gb-locchekbox-sidebar-denmoc .widget-title-sidebar-denmoc {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  line-height: 40px;
+  padding-left: 20px;
+  background: rgba(158, 158, 158, 0.145);
+  border-left: 5px solid #f79321; }
+
+.gb-locchekbox-sidebar-denmoc ul li a {
+  display: block;
+  position: relative;
+  line-height: 30px;
+  color: rgba(84, 84, 84, 0.8); }
+  .gb-locchekbox-sidebar-denmoc ul li a:before {
+    content: " ";
+    width: 14px;
+    height: 14px;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 8px;
+    display: block;
+    float: left;
+    margin-top: 7px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; }
+  .gb-locchekbox-sidebar-denmoc ul li a:hover {
+    color: #f79321; }
+    .gb-locchekbox-sidebar-denmoc ul li a:hover span {
+      border-color: #f79321; }
+  .gb-locchekbox-sidebar-denmoc ul li a span {
+    background: rgba(84, 84, 84, 0.05);
+    color: rgba(84, 84, 84, 0.8);
+    float: right;
+    font-size: .6875rem;
+    line-height: 1;
+    padding: 6px 10px 4px !important;
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    text-align: center;
+    min-width: 10px;
+    margin-top: -1px;
+    border-width: 1px;
+    border-style: solid; }
+
+/*BREARDCRUMS*/
+.gb-breadcrumbs_denmoc .breadcrumb {
+  border-radius: 0; }
+  .gb-breadcrumbs_denmoc .breadcrumb li a {
+    color: #000; }
+
+/*search*/
+.product-filter {
+  margin-bottom: 30px;
+  padding: 0 15px; }
+  .product-filter label {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    color: #000; }
+
+.product-filter-itemperpage {
+  float: left; }
+  @media screen and (max-width: 767px) {
+    .product-filter-itemperpage {
+      float: none; } }
+  .product-filter-itemperpage form {
+    margin-bottom: 0; }
+  .product-filter-itemperpage select {
+    font-size: 14px;
+    line-height: 2.14;
+    text-align: left;
+    color: #666;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 1px #e0e0e0;
+    padding: 0 15px; }
+    @media screen and (max-width: 767px) {
+      .product-filter-itemperpage select {
+        width: 100%; } }
+    .product-filter-itemperpage select option {
+      font-size: 14px;
+      line-height: 2.14;
+      text-align: left;
+      color: #808080; }
+
+.product-filter-itemperpage-ordering {
+  float: right; }
+  @media screen and (max-width: 767px) {
+    .product-filter-itemperpage-ordering {
+      float: none;
+      margin-top: 20px; } }
+  .product-filter-itemperpage-ordering p {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aeaeae;
+    padding-top: 15px; }
+  .product-filter-itemperpage-ordering form {
+    margin-bottom: 0; }
+  .product-filter-itemperpage-ordering select {
+    font-size: 14px;
+    line-height: 2.14;
+    text-align: left;
+    color: #666;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 1px #e0e0e0;
+    padding: 0 15px; }
+    @media screen and (max-width: 767px) {
+      .product-filter-itemperpage-ordering select {
+        width: 100%; } }
+    .product-filter-itemperpage-ordering select option {
+      font-size: 14px;
+      line-height: 2.14;
+      text-align: left;
+      color: #808080; }
+
+.gb-header-search_denmoc {
+  position: relative;
+  margin-top: 20px; }
+  .gb-header-search_denmoc .vk-newlist-banner-test-search button {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+  .gb-header-search_denmoc .vk-newlist-banner-test-search button:hover {
+    background: #9e9e9e;
+    color: #fff; }
+  .gb-header-search_denmoc form {
+    border-radius: 0;
+    overflow: hidden; }
+  .gb-header-search_denmoc .vk-newlist-banner-test-search {
+    width: 100%;
+    height: 40px;
+    background: #f1f1f1;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    border-right: none; }
+    .gb-header-search_denmoc .vk-newlist-banner-test-search input {
+      width: 80%;
+      height: 40px;
+      border: none;
+      outline: none;
+      color: #333;
+      background: transparent;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 14px;
+      text-indent: 15px; }
+    .gb-header-search_denmoc .vk-newlist-banner-test-search button {
+      width: 45px;
+      height: 38px;
+      background: #fff;
+      border: none;
+      border-left: 1px solid #ccc;
+      outline: none;
+      text-align: center;
+      color: #000;
+      font-size: 14px;
+      float: right;
+      border-radius: 0;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      overflow: inherit; }
+      .gb-header-search_denmoc .vk-newlist-banner-test-search button:after {
+        content: "";
+        position: absolute;
+        height: 99%;
+        width: 20px;
+        top: 0;
+        border: 1px solid #ccc;
+        border-left: none;
+        -ms-transform: skewX(8deg);
+        -webkit-transform: skewX(8deg);
+        transform: skewX(8deg);
+        right: -3px; }
+      .gb-header-search_denmoc .vk-newlist-banner-test-search button:hover {
+        color: #9e9e9e;
+        background: transparent; }
+
+/*CONTACT*/
+.gb-gioithieu-company {
+  background: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 40px; }
+  .gb-gioithieu-company h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+  .gb-gioithieu-company p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #333; }
+  .gb-gioithieu-company .gb-dress-intro ul li {
+    display: flow-root;
+    margin-bottom: 10px; }
+    .gb-gioithieu-company .gb-dress-intro ul li .icons {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #9e9e9e;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #9e9e9e;
+      float: left; }
+    .gb-gioithieu-company .gb-dress-intro ul li p {
+      padding-left: 60px;
+      color: #333;
+      font-size: 16px;
+      line-height: 1.5; }
+  .gb-gioithieu-company .gb-support-intro ul li {
+    display: flow-root;
+    margin-bottom: 10px; }
+    .gb-gioithieu-company .gb-support-intro ul li .icons {
+      width: 35px;
+      height: 25px;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #9e9e9e;
+      float: left; }
+    .gb-gioithieu-company .gb-support-intro ul li p {
+      padding-left: 60px;
+      color: #333;
+      font-size: 16px; }
+
+.gb-header-between_denmoc-between {
+  padding-top: 10px; }
+  .gb-header-between_denmoc-between ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .gb-header-between_denmoc-between ul li {
+      width: 50%;
+      float: left; }
+      .gb-header-between_denmoc-between ul li .icons_denmoc {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #f79321;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 18px;
+        color: #f79321;
+        border-radius: 50%;
+        float: left; }
+      .gb-header-between_denmoc-between ul li .info_support_denmoc {
+        width: calc(100% - 40px);
+        float: left;
+        padding-left: 15px; }
+        .gb-header-between_denmoc-between ul li .info_support_denmoc h3 {
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 24px; }
+        .gb-header-between_denmoc-between ul li .info_support_denmoc span {
+          font-size: 13px;
+          display: block; }
+
+.footer-lienhe-denmoc ul li {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  line-height: 22px; }
+
+/*BANNER*/
+.gb-banner-1-denmoc {
+  margin-bottom: 30px; }
+  .gb-banner-1-denmoc a {
+    display: block; }
+    .gb-banner-1-denmoc a img {
+      width: 100%;
+      height: auto; }
+
+.gb-banner-2-denmoc {
+  margin-bottom: 30px; }
+  .gb-banner-2-denmoc a {
+    display: block; }
+    .gb-banner-2-denmoc a img {
+      width: 100%;
+      height: auto; }
+
+.gb-banner-3-denmoc {
+  margin-bottom: 30px; }
+  .gb-banner-3-denmoc a {
+    display: block; }
+    .gb-banner-3-denmoc a img {
+      width: 100%;
+      height: auto; }
+
+.gb-banner-4-denmoc {
+  margin-bottom: 30px; }
+  .gb-banner-4-denmoc a {
+    display: block; }
+    .gb-banner-4-denmoc a img {
+      width: 100%;
+      height: auto; }
+
+.gb-banner-5-denmoc {
+  margin-bottom: 30px; }
+  .gb-banner-5-denmoc a {
+    display: block; }
+    .gb-banner-5-denmoc a img {
+      width: 100%;
+      height: auto; }
+
+/*characteristic*/
+.gb-taisaolaichonchungtoi_denmoc {
+  padding: 30px 0;
+  background: #9e9e9e;
+  background-size: cover; }
+  .gb-taisaolaichonchungtoi_denmoc .gb-taisaolaichonchungtoi_denmoc-item img {
+    margin: 0 auto; }
+  .gb-taisaolaichonchungtoi_denmoc .gb-taisaolaichonchungtoi_denmoc-item a {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px; }
+
+/*VIDEO*/
